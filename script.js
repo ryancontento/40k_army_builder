@@ -1,4 +1,4 @@
-//battle size and faction button selection
+//battle size button selection
 
 
 var userRating
@@ -28,32 +28,6 @@ document.getElementById('button3').onclick = function () {
 }
 
  
-//faction button selection 
-
-document.getElementById('button4').onclick = function () {
-      console.log(this.id + " was clicked")
-      userRating = 4;
-      document.getElementById('button4').className = 'selected';
-      document.getElementById('button5').className = '';
-      document.getElementById('button6').className = '';
-  }
-
-  document.getElementById('button5').onclick = function () {
-      console.log(this.id + " was clicked")
-      userRating = 5;
-      document.getElementById('button4').className = '';
-      document.getElementById('button5').className = 'selected';
-      document.getElementById('button6').className = '';
-  }
-  document.getElementById('button6').onclick = function () {
-      console.log(this.id + " was clicked")
-      userRating = 6;
-      document.getElementById('button4').className = '';
-      document.getElementById('button5').className = '';
-      document.getElementById('button6').className = 'selected';
-  }
-
-
 
 //change which dropdown is visable based on which faction is selected 
 
