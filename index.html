@@ -14,12 +14,16 @@
             <button type="button" id="button2">Incursion (51-100)</button>
             <button type="button" id ="button3">Strike Force (101-200)</button> 
           </div>
+          
           <h3>Faction</h3>
-          <div id ="faction">
-            <button type="button" id="button4" onClick="changeImperium()">Imperium</button>
-            <button type="button" id="button5" onClick="changeChaos()">Chaos</button> 
-            <button type="button"id="button6" onClick="changeXenos()">Xenos</button> 
-          </div>
+            <div id ="faction">
+             <input type="radio" id="imperiumRadio" name="faction" value="imperium" onClick="changeImperium()">
+             <label for="imperium">Imperium</label>
+             <input type="radio" id="chaosRadio" name="faction" value="chaos" onClick="changeChaos()">
+             <label for="chaos">Chaos</label>
+             <input type="radio" id="xenosRadio" name="faction" value="xenos" onClick="changeXenos()">
+             <label for="xenos">Xenos</label>
+            </div>
           <h3>Sub-Faction</h3>
             <div id="imperium">
               <form>

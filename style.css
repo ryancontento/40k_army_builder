@@ -2,3 +2,16 @@
 button:hover, button.selected {
     background-color:#E7C514;
 }
+
+/* start subfaction dropdowns as hidden */
+#imperium {
+  display: none;
+} 
+
+#chaos {
+  display: none;
+}
+
+#xenos {
+  display: none;
+}

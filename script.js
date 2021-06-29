@@ -37,14 +37,6 @@ document.getElementById('button4').onclick = function () {
       document.getElementById('button5').className = '';
       document.getElementById('button6').className = '';
   }
-//FIX ME   function changeImperium() {
-    var x = document.getElementById('imperium');
-    if (x.style.display === 'none') {
-      x.style.display = 'block';
-    } else {
-      x.style.display = 'none';
-    }
-  }
 
   document.getElementById('button5').onclick = function () {
       console.log(this.id + " was clicked")
@@ -62,19 +54,6 @@ document.getElementById('button4').onclick = function () {
   }
 
 
-//making faction selection change which sub-faction options are available 
-
-var theParent = document.querySelector("#faction");
-theParent.addEventListener("click", doSomething, false);
-
-function doSomething(e) {
-  if (e.target !== e.currentTarget) {
-    var clickedItem = e.target.id;
-    alert("hello " + clickedItem);
-  }
-
-
-}
 
 //change which dropdown is visable based on which faction is selected 
 
