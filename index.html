@@ -15,24 +15,45 @@
             <button type="button" id ="button3">Strike Force (101-200)</button> 
           </div>
           <h3>Faction</h3>
-            <button type="button" id="button4">Imperium</button>
-            <button type="button" id="button5">Chaos</button> 
-            <button type="button"id="button6">Xenos</button> 
+          <div id ="faction">
+            <button type="button" id="button4" onClick="changeImperium()">Imperium</button>
+            <button type="button" id="button5" onClick="changeChaos()">Chaos</button> 
+            <button type="button"id="button6" onClick="changeXenos()">Xenos</button> 
+          </div>
           <h3>Sub-Faction</h3>
-            <form> 
-              <select name="dropdown"> 
+            <div id="imperium">
+              <form>
+                <select id=“imperium” name="dropdown">
+                  <option value="Select..." selected>Select...</option>
+                  <option value="Space Marines">Space Marines</option>
+                  <option value="Adepta Sororitas">Adepta Sororitas</option>
+                  <option value="Astra Militarum">Astra Militarum</option>
+                </select>
+             </form> 
+          </div>
+
+          <div id="chaos">
+            <form>
+              <select id=“chaos” name="dropdown">
                 <option value="Select..." selected>Select...</option>
-                <option value="Space Marines">Space Marines</option>
-                <option value="Adepta Sororitas">Adepta Sororitas</option>
-                <option value="Astra Militarum">Astra Militarum</option>
                 <option value="Chaos Demons">Chaos Demons</option>
                 <option value="Chaos Space Marines">Chaos Space Marines</option>
+              </select>
+            </form>
+          </div>
+
+          <div id="xenos">
+            <form>
+              <select id=“xenos” name="dropdown">
+                <option value="Select..." selected>Select...</option>
                 <option value="Orks">Orks</option>
                 <option value="Eldar">Eldar</option>
                 <option value="Tyranids">Tyranids</option>
-                <option value="Tau">Tau</option> 
+                <option value="Tau">Tau</option>
               </select>
-            </form>
+            </form> 
+          </div>
+
         <h3>HQ:</h3>
           <button type="button">Add Unit</button>
         <h3>Troops:</h3>
