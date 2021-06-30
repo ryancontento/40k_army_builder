@@ -32,7 +32,7 @@ document.getElementById('button3').onclick = function () {
 //change which dropdown is visable based on which faction is selected 
 
 function changeImperium() {
-  var x = document.getElementById('imperium');
+  let x = document.getElementById('imperium');
   if (x.style.display === 'none') {
     x.style.display = 'block';
   } else {
@@ -41,7 +41,7 @@ function changeImperium() {
 }
 
 function changeChaos() {
-  var x = document.getElementById('chaos');
+  let x = document.getElementById('chaos');
   if (x.style.display === 'none') {
     x.style.display = 'block';
   } else {
@@ -50,7 +50,7 @@ function changeChaos() {
 }
 
 function changeXenos() {
-  var x = document.getElementById('xenos');
+  let x = document.getElementById('xenos');
   if (x.style.display === 'none') {
     x.style.display = 'block';
   } else {
