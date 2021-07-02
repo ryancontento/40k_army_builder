@@ -1,3 +1,7 @@
+/* start login messages hidden */
+#login-error-msg{
+  opacity: 0;
+}
 
 /* start subfaction dropdowns as hidden */
 #imperium {
