@@ -1,7 +1,3 @@
-/* Battle size and Faction button selection */
-button:hover, button.selected {
-    background-color:#E7C514;
-}
 
 /* start subfaction dropdowns as hidden */
 #imperium {
