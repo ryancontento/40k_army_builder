@@ -57,3 +57,16 @@ function changeXenos() {
     x.style.display = 'none';
   }
 }
+
+//adding units (only adds names entered manually)
+
+let  list = document.getElementById('hqUnit');
+
+function addHqUnit() {
+  let  hqUnit = document.getElementById('hqInput').value;
+    document.getElementById('hqUnit').innerHTML.value = hqInput;
+  let  entry = document.createElement('li');
+  entry.appendChild(document.createTextNode(hqUnit));
+  list.appendChild(entry);
+}
+

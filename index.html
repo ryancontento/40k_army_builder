@@ -19,7 +19,7 @@
             <div id ="faction">
              <input type="radio" id="imperiumRadio" name="faction" value="imperium" onClick="changeImperium()">
              <label for="imperium">Imperium</label>
-             <input type="radio" id="chaosRadio" name="faction" value="chaos" onClick="changeChaos()">
+            <input type="radio" id="chaosRadio" name="faction" value="chaos" onClick="changeChaos()">
              <label for="chaos">Chaos</label>
              <input type="radio" id="xenosRadio" name="faction" value="xenos" onClick="changeXenos()">
              <label for="xenos">Xenos</label>
@@ -56,24 +56,46 @@
           </div>
 
         <h3>HQ:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="hqInput">
+         <input type="button" onclick="addHqUnit()" value="Add Unit" /> 
+         <ul id="hqUnit"></ul> 
+        
         <h3>Troops:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="troopsInput">
+         <input type="button" onclick="addTroopsUnit()" value="Add Unit" /> 
+         <ul id="troopsUnit"></ul> 
+        
         <h3>Elites:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="elitesInput">
+         <input type="button" onclick="addElitesUnit()" value="Add Unit" /> 
+         <ul id="elitesUnit"></ul> 
+        
         <h3>Fast Attack:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="fastAttackInput">
+         <input type="button" onclick="addFastAttackUnit()" value="Add Unit" /> 
+         <ul id="fastAttackUnit"></ul> 
+       
+       
         <h3>Heavy Support:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="heavySupportInput">
+         <input type="button" onclick="addHeavySupportUnit()" value="Add Unit" /> 
+         <ul id="heavySupportUnit"></ul> 
+        
         <h3>Flyer:</h3>
-          <button type="button">Add Unit</button>
+         <input type="text" id="flyerInput">
+         <input type="button" onclick="addFlyerUnit()" value="Add Unit" /> 
+         <ul id="flyerUnit"></ul> 
+
         <h3>Dedicated Transport:</h3>
-          <button type="button">Add Unit</button>
-          <p>Unit Total:</p>
-          <input type="text"></input>
-          <p>Power Level Total:</p>
-          <input type="text"></input>
-          <button type="button">Save List</button>
+         <input type="text" id="dedicatedTransportInput">
+         <input type="button" onclick="addDedicatedTransportUnit()" value="Add Unit" /> 
+         <ul id="dedicatedTransportUnit"></ul> 
+         
+            <p>Unit Total:</p>
+            <input type="text"></input>
+            <p>Power Level Total:</p>
+            <input type="text"></input>
+            <button type="button">Save List</button>
      
           
         <script src="script.js"></script>
