@@ -124,3 +124,8 @@ loginButton.addEventListener("click", (e) => {
     }
 })
 
+
+
+//total number of units on list 
+
+
