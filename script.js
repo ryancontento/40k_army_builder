@@ -7,7 +7,36 @@
 
 
 
-// Space marine Units
+
+// subfaction drop down that changes based off which faction radio is selected
+
+
+
+// if imperium
+const imperiumSubFactions = [
+  'Space Marines',
+  'Sisters of Battle'
+];
+
+
+// if chaos 
+const chaosSubFactions = [
+  'Chaos Space Marines',
+  'Chaos Daemons'
+];
+
+
+// if xenos
+const xenosSubFactions = [
+  'Tyranids',
+  'Tau'
+];
+
+
+
+
+
+// Space marine Units (imperium)
 
 
 let spaceMarineHq = [
