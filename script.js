@@ -3,6 +3,29 @@
 
 
 
+// Space marine Units
+
+
+let spaceMarineHq = [
+const captain = {
+  unitName: 'Captain',
+  powerLevel: 120
+},
+const lieutenant = {
+  unitName 'Lieutenant',
+  powerLevel: 90
+}
+
+];
+console.log(spaceMarineHq);
+
+
+
+const intercessor = {
+  unitName: 'Intercesor',
+  powerLevel: 100
+}; 
+
 
 
 
