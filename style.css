@@ -1,9 +1,10 @@
-/* start login messages hidden */
+
+/* start login messages hidden 
 #login-error-msg{
   opacity: 0;
 }
 
-/* start subfaction dropdowns as hidden */
+ start subfaction dropdowns as hidden 
 #imperium {
   display: none;
 } 
@@ -15,4 +16,4 @@
 #xenos {
   display: none;
 }
-
+*/

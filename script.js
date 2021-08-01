@@ -1,4 +1,55 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// old code below
+/*
 //change which dropdown is visable based on which faction is selected 
 
 function changeImperium() {
@@ -128,4 +179,4 @@ loginButton.addEventListener("click", (e) => {
 
 //total number of units on list 
 
-
+*/
