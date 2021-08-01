@@ -1,5 +1,9 @@
 // objects = unit, make array of each unit type for each faction/subfaction
-// then nest those in faction arrays
+// populate dropdown options:
+// 1. jquery w/ JSON and getJSON method
+// 2. make file w/ JSON data and use XMLHttpRequest 
+// OR w/o JSON, loop through array elements and create a DOM node for each and
+// add as new dropdown option 
 
 
 
@@ -20,14 +24,17 @@ let spaceMarineHq = [
 
 
 
-const intercessor = {
-  unitName: 'Intercesor',
+let spaceMarineTroops = [
+{
+  unitName: 'Intercessor',
   powerLevel: 100
-}; 
+}, 
+{ 
+  unitName: 'Assult Intercessor',
+  powerLevel: 120
+}
 
-
-
-
+];
 
 
 
