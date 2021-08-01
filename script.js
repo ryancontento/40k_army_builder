@@ -1,4 +1,8 @@
-// 
+// objects = unit, make array of each unit type for each faction/subfaction
+// then nest those in faction arrays
+
+
+
 
 
 
