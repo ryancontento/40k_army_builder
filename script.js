@@ -1,7 +1,7 @@
 // objects = unit, make array of each unit type for each faction/subfaction
 // populate dropdown options:
 // 1. jquery w/ JSON and getJSON method
-// 2. make file w/ JSON data and use XMLHttpRequest 
+// 2. make file w/ JSON data and use XMLHttpRequest(probably not thist) 
 // OR w/o JSON, loop through array elements and create a DOM node for each and
 // add as new dropdown option 
 
