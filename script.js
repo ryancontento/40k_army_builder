@@ -1,3 +1,4 @@
+'use strict';
 // objects = unit, make array of each unit type for each faction/subfaction
 // populate dropdown options:
 // 1. jquery w/ JSON and getJSON method
